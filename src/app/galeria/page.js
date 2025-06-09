@@ -6,6 +6,7 @@ export const metadata = {
 export default function Galeria() {
   return (
     <main class="holder">
+      <h2>Algunas imagenes de los servicios realizados</h2>
         <div class="galeria">
             <img src="IMG/galeria/img01.jpg" alt="ab" />
             <img src="IMG/galeria/img02.jpg" alt="s2" />

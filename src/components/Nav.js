@@ -1,8 +1,10 @@
 import Link from "next/link"
+import "@/styles/globals.css";
 
 const Nav = (props) => {
     return (
         <>
+        <nav>
             <ol>
                 <ul>
                     <li><Link href="/">Home</Link></li>
@@ -13,6 +15,7 @@ const Nav = (props) => {
                     <li><Link href="/contacto">Contacto</Link></li>
                 </ul>
             </ol>
+            </nav>
         </>
     )
 }

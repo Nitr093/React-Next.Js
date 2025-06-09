@@ -1,6 +1,9 @@
 
 // import "./globals.css";
 import Nav from "@/components/Nav";
+import "@/styles/globals.css";
+import "@/styles/home.css";
+
 
 export const metadata = {
   title: "Transporte BENMAN",
@@ -11,10 +14,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
+        <header className="cabesal">
         <div>
           <img src="/IMG/BENMAN_LOGO_PRUEBA.jpg" width="100" alt="BENMAN LOGISTICA" />
           <h1>BENMAN LOGISTICA</h1>
         </div>
+        </header>
         <Nav />
         {children}
         

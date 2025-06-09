@@ -9,7 +9,6 @@ export const metadata = {
 export default function Servicios() {
     return (
         <div>
-            <h2>Servicios</h2>
             <ServiciosComp />
         </div>
     )
