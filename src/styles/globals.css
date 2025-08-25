@@ -71,6 +71,54 @@ footer {
 .holder {
   max-width: 960px;
   margin: 0 auto;
+  text-align: center;
+}
+
+.holder h1 {
+  font-size: 2.4rem;
+}
+
+.holder div[style*="position: relative"] {
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.card {
+  width: 18rem !important;
+}
+
+.holder h2,
+.holder h3 {  
+  font-family: "Rum Raisin", sans-serif;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.holder hr {
+  margin: 20px 0;
+  border-color: #ccccccb9;
+}
+
+/* Estilos para el contenido de body */
+.novedad-body {
+  font-style: italic;
+  line-height: 1.6; /* Espaciado entre líneas */
+  margin-top: 10px;  
+}
+
+/* Estilos más específicos para elementos dentro de novedad-body */
+.novedad-body p {
+  margin-bottom: 10px;
+}
+
+.novedad-body strong {
+  color: #a12e2e; /* Resalta texto en negrita con el color rojo de la cervecería */
+}
+
+.novedad-body em {
+  font-style: italic;
+  color: #cccccc;
 }
 
 h2 {
